@@ -1,0 +1,30 @@
+
+// Status Codes
+
+200 -> Success
+201 -> Service Not implemented yet
+
+
+403 -> Unauthorized Access
+404 -> Page Not Found
+405 -> Invalid Method
+406 -> Path not found
+
+501 -> Internal Server Error
+502 -> External Function Error
+503 -> Incomplete Request ( Missing Parameters)
+504 -> No Search Results
+505 -> Items/Details not available
+
+
+// 700s : User Errors 
+701 -> Failed Login Attempt ( Password Error )
+702 -> User Doesn't Exists
+703 -> User Already Exists
+704 -> Already Logged In
+705 -> User Not Logged In
+
+
+// 800s : Database Errors
+801 -> MySQl Databases Connection Failed
+802 -> MongoDB Database Connection Error

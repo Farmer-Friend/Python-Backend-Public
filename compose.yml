@@ -1,0 +1,13 @@
+
+# Commands:
+
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"  # Map host machine's port 5000 to container's port 80
+
+      
+
+
